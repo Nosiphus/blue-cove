@@ -1,5 +1,5 @@
 body {
-background-color: #003965;
+background-color: #001E66;
 }
 
 /* quicksand-300 - latin */
@@ -77,25 +77,25 @@ background-color: #003965;
 }
 
 h1 {
-	color: #7dc7ea;
+	color: #008CFF;
 	text-align: center;
 	font-size: 36px;
 	line-height:44px;
 }
 
 p {
-	color: #7dc7ea;
+	color: #008CFF;
 	text-align: center;
 	font-size: 20px;
 	line-height:28px;
 }
 details {
-	color: #7dc7ea;
+	color: #008CFF;
 	text-align: center;
 	font-size: 20px;
 	line-height:28px;
 }
 a {
-	color: #2aabdf;
+	color: #32A6FF;
 	text-decoration: none;
 }
