@@ -1,101 +1,51 @@
-body {
-background-color: #001E66;
-}
+@import url("https://www.nosiphus.com/css/fontstyles.css");
 
-/* quicksand-300 - latin */
-@font-face {
-  font-family: 'Quicksand';
-  font-style: normal;
-  font-weight: 300;
-  src: url('https://www.nosiphus.com/fonts/quicksand/quicksand-v7-latin-300.eot'); /* IE9 Compat Modes */
-  src: local('Quicksand Light'), local('Quicksand-Light'),
-       url('https://www.nosiphus.com/fonts/quicksand/quicksand-v7-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('https://www.nosiphus.com/fonts/quicksand/quicksand-v7-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
-       url('https://www.nosiphus.com/fonts/quicksand/quicksand-v7-latin-300.woff') format('woff'), /* Modern Browsers */
-       url('https://www.nosiphus.com/fonts/quicksand/quicksand-v7-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('https://www.nosiphus.com/fonts/quicksand/quicksand-v7-latin-300.svg#Quicksand') format('svg'); /* Legacy iOS */
-}
-/* quicksand-regular - latin */
-@font-face {
-  font-family: 'Quicksand';
-  font-style: normal;
-  font-weight: 400;
-  src: url('https://www.nosiphus.com/fonts/quicksand/quicksand-v7-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local('Quicksand Regular'), local('Quicksand-Regular'),
-       url('https://www.nosiphus.com/fonts/quicksand/quicksand-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('https://www.nosiphus.com/fonts/quicksand/quicksand-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('https://www.nosiphus.com/fonts/quicksand/quicksand-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('https://www.nosiphus.com/fonts/quicksand/quicksand-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('https://www.nosiphus.com/fonts/quicksand/quicksand-v7-latin-regular.svg#Quicksand') format('svg'); /* Legacy iOS */
-}
-/* quicksand-500 - latin */
-@font-face {
-  font-family: 'Quicksand';
-  font-style: normal;
-  font-weight: 500;
-  src: url('https://www.nosiphus.com/fonts/quicksand/quicksand-v7-latin-500.eot'); /* IE9 Compat Modes */
-  src: local('Quicksand Medium'), local('Quicksand-Medium'),
-       url('https://www.nosiphus.com/fonts/quicksand/quicksand-v7-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('https://www.nosiphus.com/fonts/quicksand/quicksand-v7-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
-       url('https://www.nosiphus.com/fonts/quicksand/quicksand-v7-latin-500.woff') format('woff'), /* Modern Browsers */
-       url('https://www.nosiphus.com/fonts/quicksand/quicksand-v7-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('https://www.nosiphus.com/fonts/quicksand/quicksand-v7-latin-500.svg#Quicksand') format('svg'); /* Legacy iOS */
-}
-/* quicksand-700 - latin */
-@font-face {
-  font-family: 'Quicksand';
-  font-style: normal;
-  font-weight: 700;
-  src: url('https://www.nosiphus.com/fonts/quicksand/quicksand-v7-latin-700.eot'); /* IE9 Compat Modes */
-  src: local('Quicksand Bold'), local('Quicksand-Bold'),
-       url('https://www.nosiphus.com/fonts/quicksand/quicksand-v7-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('https://www.nosiphus.com/fonts/quicksand/quicksand-v7-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-       url('https://www.nosiphus.com/fonts/quicksand/quicksand-v7-latin-700.woff') format('woff'), /* Modern Browsers */
-       url('https://www.nosiphus.com/fonts/quicksand/quicksand-v7-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('https://www.nosiphus.com/fonts/quicksand/quicksand-v7-latin-700.svg#Quicksand') format('svg'); /* Legacy iOS */
-}
-@font-face {
-  font-family: 'Quicksand-Bold';
-  font-style: normal;
-  font-weight: 700;
-  src: url('https://www.nosiphus.com/fonts/quicksand/quicksand-v7-latin-700.eot'); /* IE9 Compat Modes */
-  src: local('Quicksand Bold'), local('Quicksand-Bold'),
-       url('https://www.nosiphus.com/fonts/quicksand/quicksand-v7-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('https://www.nosiphus.com/fonts/quicksand/quicksand-v7-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-       url('https://www.nosiphus.com/fonts/quicksand/quicksand-v7-latin-700.woff') format('woff'), /* Modern Browsers */
-       url('https://www.nosiphus.com/fonts/quicksand/quicksand-v7-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('https://www.nosiphus.com/fonts/quicksand/quicksand-v7-latin-700.svg#Quicksand') format('svg'); /* Legacy iOS */
+body {
+background-color: #26272B;
 }
 
 *{
   font-family: "Quicksand";
 }
 
-.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
 h1 {
-	color: #008CFF;
+	color: #DCDDDE;
 	text-align: center;
 	font-size: 36px;
 	line-height:44px;
 }
 
 p {
-	color: #008CFF;
+	color: #DCDDDE;
 	text-align: center;
 	font-size: 20px;
 	line-height:28px;
 }
 details {
-	color: #008CFF;
+	color: #DCDDDE;
 	text-align: center;
 	font-size: 20px;
 	line-height:28px;
 }
 a {
-	color: #32A6FF;
+	color: #238ACF;
 	text-decoration: none;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    
+    position: absolute;
+    z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
